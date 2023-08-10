@@ -82,7 +82,7 @@ header {
 }
 
 .philosophy__heading {
-  color: red;
+  color: #D24C41;
   padding-bottom: 1rem;
 }
 
@@ -94,22 +94,46 @@ header {
 
 .this-month__heading {
   text-align: center;
-  color: red;
+  color: #D24C41;
 }
 
 .subscribe {
-  background-color: grey;
-  padding-inline: 2rem;
-  padding-bottom: 2rem;
+  background-color: #C6C6C6;
+  padding: 2.25rem;
+}
+
+.subscribe-inner {
+  max-width: 1200px;
 }
 
 .subscribe__heading {
   text-align: center;
-  color: red;
+  color: #D24C41;
+  padding-bottom: 1.5rem;
+}
+
+.subscribe__form {
+  text-align: center;
+}
+
+.subscribe__email {
+  background-color: #C6C6C6;
+  border: 2px solid #000;
+}
+
+.subscribe__button {
+  background-color: #D24C41;
+  color: #fff;
 }
 
 .subscribe__description {
   padding-top: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .subscribe-inner {
+    margin-inline: auto;
+  }
 }
 
 .footer {
