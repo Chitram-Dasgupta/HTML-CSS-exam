@@ -1,0 +1,71 @@
+.u-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url('assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.nav-link {
+  color: var(--dark-black);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.navbar {
+  padding: 1rem 0.25rem;
+}
+
+.navbar-nav {
+  margin-left: 0;
+  text-align: center;
+  margin-right: 0.9em;
+}
+
+.nav-link:hover {
+  color: var(--highlight-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-item {
+    padding-left: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+.banner-box {
+  text-align: center;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
+.philosophy {
+  text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 2rem;
+  margin-inline: 1rem;
+}
+
+.philosophy__heading {
+  color: red;
+}
+
+.this-month__heading {
+  text-align: center;
+  color: red;
+}
