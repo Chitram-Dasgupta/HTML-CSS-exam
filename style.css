@@ -54,15 +54,42 @@ header {
   padding-bottom: 11rem;
 }
 
+.banner-box__heading {
+  font-size: 4rem;
+}
+
+.banner-box__button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.banner-box__button:hover {
+  background-color: white;
+  color: black;
+}
+
 .philosophy {
   text-align: center;
-  padding-top: 1.25rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   margin-inline: 1rem;
+  max-width: 1200px;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .philosophy__heading {
   color: red;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .philosophy {
+    margin-inline: auto;
+  }
 }
 
 .this-month__heading {
@@ -122,5 +149,15 @@ header {
 
   #carouselExample2 {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #carouselExample {
+    display: none;
+  }
+
+  #carouselExample2 {
+    display: block;
   }
 }
