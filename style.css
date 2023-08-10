@@ -143,28 +143,17 @@ header {
   padding-top: 2rem;
 }
 
-.first-col {
+.my-col {
   padding-bottom: 2rem;
+  text-align: start;
 }
 
 .first-col__copyright {
   color: gray;
 }
 
-.second-col {
-  padding-bottom: 2rem;
-}
-
-.third-col {
-  padding-bottom: 2rem;
-}
-
-.fourth-col {
-  padding-bottom: 2rem;
-}
-
-.fifth-col {
-  padding-bottom: 2rem;
+.fifth-col__description {
+  margin-top: 1rem;
 }
 
 .fifth-col__email {
@@ -179,9 +168,20 @@ header {
 }
 
 .fifth-col__button {
+  display: block;
   margin-top: 1rem;
   background-color: #D24C41;
   color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .my-col {
+    text-align: center  ;
+  }
+
+  .fifth-col__button {
+    margin-inline: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {
